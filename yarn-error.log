@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\KO915\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-navigation-stack
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\KO915\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\KO915\AppData\Roaming\npm;E:\AndroidSDK\platform-tools;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\KO915\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141091:19)
+      at Object.onceWrapper (events.js:298:28)
+      at ClientRequest.emit (events.js:209:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:298:28)
+      at TLSSocket.emit (events.js:209:13)
+      at TLSSocket.Socket._onTimeout (net.js:468:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "WooVibe",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "start": "react-native start",
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "native-base": "^2.13.8",
+      "react": "16.9.0",
+      "react-native": "0.61.1",
+      "react-native-gesture-handler": "^1.4.1",
+      "react-navigation": "^4.0.9",
+      "react-redux": "^7.1.1",
+      "redux": "^4.0.4",
+      "yarn": "^1.17.3"
+    },
+    "devDependencies": {
+      "@babel/core": "7.6.2",
+      "@babel/runtime": "7.6.2",
+      "@react-native-community/eslint-config": "0.0.3",
+      "babel-jest": "24.9.0",
+      "eslint": "6.4.0",
+      "jest": "24.9.0",
+      "metro-react-native-babel-preset": "0.51.1",
+      "react-test-renderer": "16.9.0"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
